@@ -1,7 +1,7 @@
 # pt8005
 Python implementation to read data from PeakTech 8005 via USB/Serial-Port
 
-Simple terminal output for now:
+Simple terminal output for now (time, dBA/dBC, bar):
 
 <pre>
 20:02:51.510314 46.9  *********************************************
