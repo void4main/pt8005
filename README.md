@@ -30,3 +30,5 @@ Simple terminal output for now (time, dBA/dBC, bar):
 </pre>
 
 and a second version to dump all the data to an existing InfluxDB to show the results in Grafana.
+Like so:
+![plot.png](https://github.com/void4main/pt8005/blob/master/pt8005-grafana-sample.png)
