@@ -28,3 +28,5 @@ Simple terminal output for now (time, dBA/dBC, bar):
 20:02:52.559911 53.0  ****************************************************
 20:02:52.609924 52.4  ***************************************************
 </pre>
+
+and a second version to dump all the data to an existing InfluxDB to show the results in Grafana.
