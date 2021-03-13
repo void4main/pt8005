@@ -91,10 +91,10 @@ class pt8005():
 class datadump():
     def __init__(self, host="localhost", dbname="pt8005_pa10", port="8086"):
         try:
-            self.client = InfluxDBClient(host, port)
+            self.client = InfluxDBClient(host=host, port=port)
             self.client.switch_database(dbname)
-        except:
-            print("Some error occured.")
+        except self.client.InfluxDBClientError as e:
+            print("Could not connect to database:", e)
             exit(1)
 
     def _create_json(self, value, type):
